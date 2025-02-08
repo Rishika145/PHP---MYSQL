@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Submitted</title>
+</head>
+<body>
+    <h1>Feedback Submitted</h1>
+    <p><strong>Name:</strong> <?php echo htmlspecialchars($_POST['name']); ?></p>
+    <p><strong>Mobile Number:</strong> <?php echo htmlspecialchars($_POST['mobile']); ?></p>
+    <p><strong>Email:</strong> <?php echo htmlspecialchars($_POST['email']); ?></p>
+    <p><strong>Message:</strong> <?php echo nl2br(htmlspecialchars($_POST['message'])); ?></p>
+</body>
+</html>
